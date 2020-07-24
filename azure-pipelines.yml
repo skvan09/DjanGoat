@@ -19,5 +19,5 @@ steps:
   displayName: 'Run a multi-line script'
 - task: SonatypeCloudPipelineTask@0
   inputs:
-    SonatypeCloudService: 'sonacloud'
+    SonatypeCloudService: 'prodtest'
     stage: 'Build'
